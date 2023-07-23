@@ -21,12 +21,12 @@ body {
 
 html {
 	display: table;
-    margin: auto;
+	margin: auto;
 }
 
 body {
-    display: table-cell;
-    vertical-align: middle;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 a {
@@ -43,7 +43,7 @@ u:hover {
 
 .profile {
 	background-color: #171616;
-	
+
 	width: 600px;
 	margin: 10% auto 50px;
 	border-radius: 20px;
@@ -95,12 +95,12 @@ u:hover {
 }
 
 .top-part>ul.badges {
-    width: 12%;
-    height: auto;
-    background-color: #171616;
-    border-radius: 12px;
-    text-align: center;
-    margin: auto;
+	width: 12%;
+	height: auto;
+	background-color: #171616;
+	border-radius: 12px;
+	text-align: center;
+	margin: auto;
 	align-self: center;
 	display: flex;
 	list-style: none;
@@ -184,13 +184,13 @@ hr {
 }
 
 .project-description {
-    display: none;
-    flex-direction: column;
+	display: none;
+	flex-direction: column;
 }
 
-.projects>.project-box:hover + .project-description {
-    display: flex;
-    color: white;
+.projects>.project-box:hover+.project-description {
+	display: flex;
+	color: white;
 }
 
 .projects>.project-box:hover {
@@ -219,7 +219,6 @@ hr {
 		width: auto;
 		height: auto;
 	}
-
 
 
 	.top-part>img {
