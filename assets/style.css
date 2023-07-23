@@ -43,6 +43,7 @@ u:hover {
 
 .profile {
 	background-color: #171616;
+	
 	width: 600px;
 	margin: 10% auto 50px;
 	border-radius: 20px;
@@ -53,6 +54,7 @@ u:hover {
 }
 
 .top-part {
+	background-image: url(./assets/img/bgimg.png);
 	background-color: #171616;
 	padding: 10px;
 	border-radius: 20px 20px 0 0;
@@ -210,10 +212,31 @@ hr {
 	font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 1020px) {
 
 	body {
 		overflow-y: scroll !important;
+		width: auto;
+		height: auto;
+	}
+
+
+
+	.top-part>img {
+		width: 70px;
+		height: 70px;
+	}
+
+	.top-part>p.name {
+		width: 80px;
+		height: 20px;
+		font-size: 16px;
+	}
+
+	.top-part>p.name2 {
+		width: 100px;
+		height: 20px;
+		font-size: 11px;
 	}
 
 	.box.profile {
@@ -222,11 +245,28 @@ hr {
 		margin: 0;
 	}
 
+	.bio {
+		padding: 10px;
+		font-size: 12px
+	}
+
+	.project-box>img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.project-box>p {
+		width: 70%;
+		font-size: 15px;
+	}
+
 	.top-part {
-		border-radius: 0;
+		border-radius: 25px 25px 0 0;
 	}
 
 	.bottom-part {
-		border-radius: 0;
+		border-radius: 25px;
+		padding: 0%;
+		size: 0cap;
 	}
 }

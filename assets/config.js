@@ -3,14 +3,14 @@ const config = {
     USERNAME: "Brian",
     PICTURE: "assets/img/profile_picture.png",
 
-    DESCRIPTION: '<i>he/him</i><br><br> /\\___/\\<br>꒰ ˶• ༝ - ˶꒱<br>./づ~🍨',
+    DESCRIPTION: ' /\\___/\\<br>꒰ ˶• ༝ - ˶꒱<br>./づ~🍨',
 
     PROJECTS: [
         {
             id: "diablo4",
             image: "assets/img/diablo4.png",
             link: "https://discord.com/invite/diablo4",
-            name: "Sanctuary - Diablo 4 Community",
+            name: "Sanctuary - Diablo 4",
             description: "Coming Soon"
         },
         {
@@ -31,7 +31,7 @@ const config = {
             id: "dreamycafe",
             image: "assets/img/dreamycafe.gif",
             link: "https://discord.com/invite/dreamycafe",
-            name: "Dreamy Café | Anime ・ Gaming",
+            name: "Dreamy Café",
             description: "Coming Soon"
         },
         {
