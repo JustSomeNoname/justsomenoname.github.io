@@ -21,7 +21,7 @@
    </head>
    <body>
       <div class="box profile">
-         <div style="background-image: url(./assets/img/bgimg.png);" class="top-part">
+         <div class="top-part">
             <img class="profile-picture" v-bind:src="profile_picture" alt="Profile Picture" />
             <br>
             <p style="color: #2433ff;" class="name"><b><i>Brian</i></b></p>
@@ -49,10 +49,12 @@
             <br>
             <ul class="social">
                <li v-for="social in socials"><a v-bind:class="social.class_name" v-bind:href="social.link" target="_blank"></a></li>
-               <a href="https://github.com/JustSomeNoname"/><u /><b />
-               <p style="color: #a3a3eb;">JustSomeNoname</p>
+               <b><a href="https://github.com/JustSomeNoname"><p style="color: #a3a3eb;">JustSomeNoname</p></a></b>
             </ul>
          </div>
+      </div>
+      <div class="secret-text">
+         <p>1141</p>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>

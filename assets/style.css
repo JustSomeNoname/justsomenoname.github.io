@@ -11,7 +11,7 @@ body {
 	margin: 0;
 	height: 100%;
 
-	background-image: url(./img/bodybg.png);
+	background-image: url(./img/bodyBackground.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -43,7 +43,6 @@ u:hover {
 .profile {
 	background-color: transparent;
 	backdrop-filter: blur(12px);
-
 	width: 600px;
 	margin: 10% auto 50px;
 	margin-bottom: 1px;
@@ -55,7 +54,10 @@ u:hover {
 }
 
 .top-part {
-	background-image: url(./assets/img/bgimg.png);
+	background-image: url(./img/profileBackground.png);
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position: center;
 	padding: 10px;
 	border-radius: 20px 20px 0 0;
 	display: flex;
@@ -168,18 +170,22 @@ hr {
 }
 
 .projects>h1 {
+	text-align: center;
 	color: #fff;
 	font-size: 15px;
 	margin: 10px;
 }
 
 .projects>.project-box {
+	align-content: center;
 	border-radius: 45px;
 	box-shadow: none;
 	transition: box-shadow 0.1s;
 	display: flex;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-left: 155px;
+	margin-right: 150px;
 	padding: 5px 5px 5px 10px;
 }
 
@@ -206,11 +212,18 @@ hr {
 }
 
 .project-box>p {
+	text-align: center;
 	color: #fff;
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-right: 10px;
 	font-size: 20px;
+}
+
+.secret-text>p {
+	color: transparent;
+	text-align: center;
+	margin: auto;
 }
 
 @media screen and (max-width: 1020px) {
@@ -251,17 +264,18 @@ hr {
 		margin: 0;
 	}
 
+	.projects>.project-box {
+		margin: auto;
+		padding: 0;
+		border-radius: 50px;
+		background-color: transparent;
+	}
+
 	.bio {
 		background-color: transparent;
 		padding: 10px;
 		font-size: 12px;
 		border-radius: 0 0 25px 25px;
-	}
-
-	.projects>.project-box {
-		padding: 0;
-		border-radius: 50px;
-		background-color: transparent;
 	}
 
 	.project-box>img {
@@ -287,5 +301,11 @@ hr {
 	.bottom-part {
 		border-radius: 0 0 25px 25px;
 		padding: 0%;
+	}
+
+	.secret-text>p {
+		color: transparent;
+		text-align: center;
+		margin: auto;
 	}
 }
