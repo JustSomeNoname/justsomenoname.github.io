@@ -54,7 +54,7 @@ u:hover {
 }
 
 .top-part {
-	background-image: url(./img/profileBackground.png);
+	background-image: url("/assets/img/profileBackground.png");
 	background-repeat: no-repeat;
 	background-attachment: initial;
 	background-position: center;
