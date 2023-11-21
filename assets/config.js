@@ -50,9 +50,15 @@ const config = {
         },
     ],
 
-    SOCIALS: [{
+    SOCIALS: [
+        {
         class_name: "fab fa-github",
         link: "https://github.com/JustSomeNoname"
-    }, ],
+    },
+    {
+        class_name_imp: "far fa-address-book",
+        link: "/impressum"
+    }
+ ],
 
 }

@@ -20,6 +20,8 @@
       <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
    </head>
    <body>
+      <nav id="sidebar" class="hidden">
+     </nav>
       <div class="box profile">
          <div class="top-part">
             <img class="profile-picture" v-bind:src="profile_picture" alt="Profile Picture" />
@@ -47,14 +49,15 @@
          </div>
          <div class="bottom-part">
             <br>
-            <ul class="social">
-               <li v-for="social in socials"><a v-bind:class="social.class_name" v-bind:href="social.link" target="_blank"></a></li>
-               <b><a href="https://github.com/JustSomeNoname"><p style="color: #a3a3eb;">JustSomeNoname</p></a></b>
-            </ul>
-         </div>
-      </div>
-      <div class="secret-text">
-         <p>I'll love you forever <3</p>
+            <div class="social-container">
+               <div class="github">
+                  <b><a href="https://github.com/JustSomeNoname" style="color: #a3a3eb;">JustSomeNoname</a></b>
+               </div>
+               <div class="imprint">
+                  <b><a href="/impressum.html" style="color: #a3a3eb;">Impressum</a></b>
+               </div>
+            </div>
+         </div>         
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
