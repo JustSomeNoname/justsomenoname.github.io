@@ -42,10 +42,10 @@ const config = {
             description: "Coming Soon"
         },
         {
-            id: "teamruby",
-            image: "assets/img/rubychan.png",
-            link: "https://discord.com/invite/rubychan",
-            name: "#TeamRuby",
+            id: "felix",
+            image: "assets/img/felix.gif",
+            link: "https://discord.com/invite/felix",
+            name: "Felix' Traumstudios",
             description: "Coming Soon"
         },
     ],
