@@ -7,10 +7,10 @@ const config = {
 
     PROJECTS: [
         {
-            id: "diablo4",
-            image: "assets/img/diablo4.png",
-            link: "https://discord.com/invite/diablo4",
-            name: "Sanctuary - Diablo 4",
+            id: "offthegrid",
+            image: "assets/img/offthegrid.gif",
+            link: "https://discord.com/invite/offthegrid",
+            name: "OFF THE GRID",
             description: "Coming Soon"
         },
         {
