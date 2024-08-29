@@ -7,13 +7,6 @@ const config = {
 
     PROJECTS: [
         {
-            id: "offthegrid",
-            image: "assets/img/offthegrid.gif",
-            link: "https://discord.com/invite/offthegrid",
-            name: "OFF THE GRID",
-            description: "Coming Soon"
-        },
-        {
             id: "amar",
             image: "assets/img/amar.gif",
             link: "https://discord.com/servers/amar-444141193022930944",
