@@ -7,6 +7,13 @@ const config = {
 
     PROJECTS: [
         {
+            id: "viggleai",
+            image: "assets/img/viggleai.png",
+            link: "https://discord.com/servers/viggle-1181076253172842537",
+            name: "Viggle",
+            description: "Coming Soon"
+        },
+        {
             id: "amar",
             image: "assets/img/amar.gif",
             link: "https://discord.com/servers/amar-444141193022930944",
