@@ -7,10 +7,10 @@ const config = {
 
     PROJECTS: [
         {
-            id: "viggleai",
-            image: "assets/img/viggleai.png",
-            link: "https://discord.com/servers/viggle-1181076253172842537",
-            name: "Viggle",
+            id: "felix",
+            image: "assets/img/felix.gif",
+            link: "https://discord.com/invite/rXD9AH87Ny",
+            name: "Felix' Traumstudios",
             description: "Coming Soon"
         },
         {
@@ -39,13 +39,6 @@ const config = {
             image: "assets/img/animegamingcafe.gif",
             link: "https://animegamingcafe.de",
             name: "Anime & Gaming Cafe",
-            description: "Coming Soon"
-        },
-        {
-            id: "felix",
-            image: "assets/img/felix.gif",
-            link: "https://discord.com/invite/felix",
-            name: "Felix' Traumstudios",
             description: "Coming Soon"
         },
     ],
